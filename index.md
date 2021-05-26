@@ -69,19 +69,6 @@ f.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -549,11 +536,12 @@ compare_two(grid, solution, 'Human-Based', 'Solution')
 
     
 ![png](output_19_3.png)
-    
 
 
+## Conclusion/Results
 
-```python
+Now we see, there is some method in the madness of humans style of solving sudoku. Now, my CNN architecture was a large model with many filters and channels. The models complexity also could have been more had I made better use of GPU. Also to note, the model performed well on very unsolved models, but the model had no expsoure to partially solved games. Meaning, as seen in the human method of solving, the last cell can be the hardest to solve. 
 
-```
+## Reflections/If I were to do it again
 
+This was a fun project, definitely very cool training my own model from scratch and creating the visuals and human-style solving. This also got me thinking about applying my model to other uses beyond attaining best performace, i.e. use in a cell phone app, or a website's logic. If I were to do it again I definitely would spend more time making use of the GPU and tailoring my dataset to improve performance. Also, a moon-shot plan would be to create a NLP processor that is trained on reasoning behind which cell to fill in next, thus creating amodel that could not only tell you which cell to choose next but why. I hope anyone who went through this found something useful for their own projects.
