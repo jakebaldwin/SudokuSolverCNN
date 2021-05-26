@@ -194,7 +194,7 @@ test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=25, shuff
 ```
 
 ## Defining our Model
-Now, we define our model. The architecture of a CNN is complex, ** TALK ABOUT WHAT BATCHNORM DOES, WHY THIS IS COMPLEX ENOUGH **
+Now, we define our model. The architecture of a CNN is complex, making use of majority 3x3 filters with the final filter being a 1x1 conv. The reason for the 1x1 conv is that we desire many features from the input, and not actual dimensions. 1x1 convs makes this process easier. The batchnorm after each convolutional layer also is implemented because it will shift the input to be standard, so each filter has consistent input data to learn from.
 
 
 ```python
@@ -454,7 +454,7 @@ compare_two(out.argmax(0), solution, 'One-Shot', 'Solution')
 
 
     
-![png](./gh-pages/output_17_3.png)
+![png](output_17_3.png)
     
 
 
