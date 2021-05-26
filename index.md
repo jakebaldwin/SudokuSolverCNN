@@ -467,7 +467,7 @@ compare_two(out.argmax(0), solution, 'One-Shot', 'Solution')
 
 
     
-![png](output_17_3.png)
+![png](./gh-pages/output_17_3.png)
     
 
 
