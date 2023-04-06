@@ -1,5 +1,6 @@
 # Sudoku Solver: A Convolutional Neural Network Approach to 81 Squares
 ### By Jake Baldwin
+### Inspiration (and some guidance) from Shiva Verma https://towardsdatascience.com/solving-sudoku-with-convolution-neural-network-keras-655ba4be3b11
 
 ## Dataset and Preprocessing
 
