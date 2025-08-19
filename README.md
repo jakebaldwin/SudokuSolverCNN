@@ -196,7 +196,7 @@ test_dataloader = torch.utils.data.DataLoader(test_dataset, batch_size=25, shuff
 ```
 
 ## Defining our Model
-Now, we define our model. The architecture of a CNN is complex, ** TALK ABOUT WHAT BATCHNORM DOES, WHY THIS IS COMPLEX ENOUGH **
+Now, we define our model. 
 
 
 ```python
